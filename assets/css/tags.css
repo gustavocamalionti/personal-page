@@ -1,48 +1,20 @@
 * {
-    margin:0;
-    padding:0;
-    border: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
 }
 
-html {
-    font-size:62.5%;
+nav, li {
+    color:var(--primary-color) !important;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    overflow-x:hidden !important;
+    font-family: 'Poppins', sans-serif !important;
     color: var(--primary-color);
-    font-size:1.6rem;
 
     background-color: var(--body-bg);
     color: var(--body-color);
     transition: background 0.2s linear;
-}
-
-h1 {
-    font-size: 6rem;
-    text-transform: uppercase;
-}
-
-h2 {
-    font-size: 5.5rem;
-}
-
-h3 {
-    font-size: 5rem;
-}
-
-h4 {
-    font-size: 4.5rem;
-}
-
-h5 {
-    font-size: 4rem;
-}
-
-h6 {
-    font-size: 3.5rem;
 }
 
 a {

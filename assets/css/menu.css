@@ -1,0 +1,20 @@
+
+.menu li a {
+    position: relative;
+}
+
+.menu li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0.3rem;
+    left: 50%;
+    width: 0;
+    height: 0.1rem;
+    background: var(--secondary-color) !important;
+    transition: all 300ms ease-in-out ;
+}
+
+.menu li a:hover::after {
+    width: 50%;
+    left: 25%;
+}
