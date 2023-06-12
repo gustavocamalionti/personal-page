@@ -7,6 +7,8 @@
     --light-gray-color: #d8d8d8;
 
     /* DARK-MODE:OFF */
+    --menu-text-color: #232c35;
+    --menu-line-color: #232c35;
     --body-bg: #fafafa;
     --body-color: #232c35;
     --link-color: #222;
@@ -18,6 +20,8 @@
 
 /* DARK-MODE:ON */
 .dark-mode:root {
+    --menu-text-color: #fafafa;
+    --menu-line-color: #fafafa;
     --body-bg: #232c35;
     --body-color: #fafafa;
     --link-color: #dee2e6;

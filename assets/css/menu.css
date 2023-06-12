@@ -1,6 +1,23 @@
 
+#logo-header{
+    color:var(--menu-text-color);
+}
+
+.navbar-toggler {
+    background-color: var(--white-color);
+}
+
+hr {
+    color:var(--menu-text-color);
+}
+
 .menu li a {
     position: relative;
+    color:var(--menu-text-color);
+}
+
+.menu li a:hover {
+    color: var(--menu-text-color);
 }
 
 .menu li a::after {
@@ -10,7 +27,7 @@
     left: 50%;
     width: 0;
     height: 0.1rem;
-    background: var(--secondary-color) !important;
+    background: var(--menu-line-color) !important;
     transition: all 300ms ease-in-out ;
 }
 
