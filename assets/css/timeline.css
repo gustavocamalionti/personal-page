@@ -1,0 +1,60 @@
+.timeline-container {
+    font-family: 'Fira Sans', sans-serif;
+    position:relative;
+}
+
+.timeline-item {
+    width:50%;
+    padding:60px;
+    position:relative;
+    background-color: rgb(164, 164, 38);
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position:absolute;
+    border-radius:50%;
+   
+}
+
+/* CARD IN RIGHT */
+.timeline-item:nth-child(2n+1) {
+    left:50%;
+}
+
+.timeline-item:nth-child(2n+1)::after {
+    content:'';
+    position:absolute;
+    width:6px;
+    height:100%;
+    background-color: black;
+    top:0;
+    left:-3px;
+}
+
+.timeline-item:nth-child(2n+1) .circle {
+    left:-15px;
+    top:calc(50% - 15px);
+}
+
+/* CARD IN LEFT */
+.timeline-item:nth-child(even) {
+    left:0;
+}
+
+.timeline-item:nth-child(even)::after {
+    content:'';
+    position:absolute;
+    width:6px;
+    height:100%;
+    background-color: black;
+    top:0;
+    right:-3px;
+}
+
+.timeline-item:nth-child(even) .circle {
+    right:-15px;
+    top:calc(50% - 15px);
+}
