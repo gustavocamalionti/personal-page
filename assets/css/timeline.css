@@ -61,6 +61,11 @@
     }
 }
 
+.card{
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+
 @media screen and (min-width: 992px) {
 
     .timeline-item {
