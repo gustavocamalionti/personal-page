@@ -16,6 +16,11 @@
     --toggle-buttom-color:#232c35;
     --toggle-ball-color:#fff;
 
+    
+    --timeline-text-color:#232c35;
+    --timeline-icon-color:#fafafa;
+
+
 }
 
 /* DARK-MODE:ON */
@@ -28,4 +33,7 @@
     --link-color-hover: #3cc368;
     --toggle-buttom-color: #fafafa;
     --toggle-ball-color:#232c35;
+
+    --timeline-text-color:#fafafa;
+    --timeline-icon-color:#232c35;
 }

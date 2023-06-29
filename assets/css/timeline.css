@@ -1,60 +1,120 @@
 .timeline-container {
     font-family: 'Fira Sans', sans-serif;
-    position:relative;
+    position: relative;
 }
 
 .timeline-item {
-    width:50%;
-    padding:60px;
-    position:relative;
-    background-color: rgb(164, 164, 38);
+    position: relative;
 }
 
 .circle {
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    position:absolute;
-    border-radius:50%;
-   
+    background-color: var(--timeline-text-color);
+    position: absolute;
+    border-radius: 50%;
+    z-index:1;
 }
 
-/* CARD IN RIGHT */
-.timeline-item:nth-child(2n+1) {
-    left:50%;
+.timeline-circle-icon{
+    color:var(--timeline-icon-color);
 }
 
-.timeline-item:nth-child(2n+1)::after {
-    content:'';
-    position:absolute;
-    width:6px;
-    height:100%;
-    background-color: black;
-    top:0;
-    left:-3px;
+@media screen and (max-width: 992px) {
+    .timeline-item {
+        width: 100%;
+        padding:75px 30px 75px 30px ;
+    }
+
+    .circle{
+        width: 30px;
+        height: 30px;
+        top:-15px;
+        left: calc(50% - 13px); 
+    }
+
+    /* CARD IN RIGHT */
+    .timeline-item::after {
+        content: '';
+        position:absolute;
+        width: 3px;
+        height: 75px;
+        background-color: var(--timeline-text-color);
+        bottom:0;
+        left:50%;
+    }
+
+    .timeline-item::before {
+        content: '';
+        position:absolute;
+        width: 3px;
+        height: 75px;
+        background-color: var(--timeline-text-color);
+        top:0;
+        left:50%;
+    } 
+
+    .timeline-item:last-child::after {
+        display:none;
+    } 
+
+    .first-circle{
+        top:20px;
+    }
 }
 
-.timeline-item:nth-child(2n+1) .circle {
-    left:-15px;
-    top:calc(50% - 15px);
-}
+@media screen and (min-width: 992px) {
 
-/* CARD IN LEFT */
-.timeline-item:nth-child(even) {
-    left:0;
-}
+    .timeline-item {
+        width: 50%;
+        padding: 60px;
+    }
 
-.timeline-item:nth-child(even)::after {
-    content:'';
-    position:absolute;
-    width:6px;
-    height:100%;
-    background-color: black;
-    top:0;
-    right:-3px;
-}
+    .circle{
+        width: 30px;
+        height: 30px;
+    }
 
-.timeline-item:nth-child(even) .circle {
-    right:-15px;
-    top:calc(50% - 15px);
+    /* CARD IN RIGHT */
+    .timeline-item:nth-child(2n+1) {
+        left: 50%;
+    }
+
+    .timeline-item:nth-child(2n+1)::after {
+        content: '';
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        background-color: var(--timeline-text-color);
+        top: 0;
+        left: -1.5px;
+    }
+
+    .timeline-item:nth-child(2n+1) .circle {
+        left: -15px;
+        top: calc(50% - 15px);
+    }
+
+    /* CARD IN LEFT */
+    .timeline-item:nth-child(even) {
+        left: 0;
+    }
+
+    .timeline-item:nth-child(even)::after {
+        content: '';
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        background-color: var(--timeline-text-color);
+        top: 0;
+        right: -1.5px;
+    }
+
+    .timeline-item:nth-child(even) .circle {
+        right: -15px;
+        top: calc(50% - 15px);
+    }
+    
+    .timeline-item:last-child::after{
+        height:50%;
+    }
+    
 }
