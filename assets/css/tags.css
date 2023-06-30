@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box !important;
     text-decoration: none !important;
 }
 
@@ -25,14 +24,31 @@ body {
     transition: background 0.2s linear;
 }
 
+section {
+    scroll-margin-top:59px
+}
+
+p {
+    color:var(--blue-light-color);
+    font-size:1.4rem;
+}
+
+h1{
+    color:var(--primary-color);
+}
+
+h2{
+    color:var(--secondary-color)
+}
+
+h3 {
+    color:var(--tertiary-color);
+}
+
 a {
     color:var(--link-color);
 }
 
 a:hover {
     color:var(--link-color-hover);
-}
-
-h1{
-    color:var(--primary-color);
 }

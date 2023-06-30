@@ -1,60 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap');
 
 :root {
-    --white-color: #fafafa;
-    --primary-color: #0B0F1F;
-    --secondary-color: #A2A2E2;
+
+    --primary-color: #0A192F;
+    --secondary-color: #64FFDA;
+    --tertiary-color: #CCD6F6;
+
+
+    --gap: 150px !important;
+    --moon-color: #73746d;
     --gray-light-color: #6D7181;
-    --blue-light-color:#151B26;
+    --blue-light-color: #8892B0;
+    --white-color: #fafafa;
+
+    --btn-border-color: #64ffda;
+    --btn-background-color: #0A192F;
+    --btn-font-color: #64ffda;
+
+    -btn-border-hover-color: #64ffdb;
+    --btn-background-hover-color: #64ffdbdf;
+    --btn-font-hover-color: #0a192f;
+
 
     /* DARK-MODE:OFF */
-    --logo-header-color:#0B0F1F;
-    --menu-text-color: #0B0F1F;
+    --logo-header-color: #0A192F;
+    --menu-text-color: #0A192F;
 
-    --text-secondary-color:#fafafa;
-    --menu-line-color: #A2A2E2;
+    --text-secondary-color: #fafafa;
+    --menu-line-color: #64FFDA;
     --body-bg: #fafafa;
-    --body-color: #0B0F1F;
+    --body-color: #0A192F;
     --link-color: #1a2752;
-    --link-color-hover: #A2A2E2;
-    --toggle-buttom-color:#0B0F1F;
-    --toggle-ball-color:#fff;
+    --link-color-hover: #64FFDA;
+    --toggle-buttom-color: #0A192F;
+    --toggle-ball-color: #fff;
 
-    --timeline-text-color:#0B0F1F;
-    --timeline-icon-color:#A2A2E2;
+    --timeline-text-color: #0A192F;
+    --timeline-icon-color: #64FFDA;
     --background-image: none;
 
-    --card-background-color:#fafafa;
-    --card-font-color:#0B0F1F;
-    --card-border-color:#fafafa;
+    --card-background-color: #fafafa;
+    --card-font-color: #0A192F;
+    --card-border-color: #fafafa;
 
-    --shadow-border:  rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    --shadow-border: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     --header-color: #fafafa;
 }
 
 /* DARK-MODE:ON */
 .dark-mode:root {
+    --primary-color: #64FFDA;
+    --secondary-color: #CCD6F6;
+    --tertiary-color: #8892B0;
+    --link-color-hover: #64FFDA;
+
+    --btn-border-color: #64ffda;
+    --btn-background-color: #0A192F;
+    --btn-font-color: #64ffda;
+
     --logo-header-color: #fafafa;
     --menu-text-color: #fafafa;
-    --menu-line-color: #fafafa;
-    --body-bg: #0B0F1F;
+    --menu-line-color: #64FFDA;
+
+    --toggle-buttom-color: #fafafa;
+    --toggle-ball-color: #0A192F;
+
+    --body-bg: #0A192F;
     --body-color: #6D7181;
     --link-color: #fafafa;
 
+    --card-background-color: #151B26;
+    --card-font-color: #64FFDA;
+    --card-border-color: #64FFDA3e;
+    --shadow-border: #64FFDA 0px 1px 3px, #e0e0e05c 0px 1px 2px;
+    --header-color: #0A192F;
 
-    --card-background-color:#151B26;
-    --card-font-color:#A2A2E2;
-    --card-border-color:#a2a2e23e;
 
-    --shadow-border:  #e0e0e05c 0px 1px 3px, #e0e0e05c 0px 1px 2px;
-    --header-color: #0B0F1F;
-
-    --menu-line-color:#A2A2E2;
-    --link-color-hover: #A2A2E2;
-    --toggle-buttom-color: #fafafa;
-    --primary-color:#9D9CE7;
-    --toggle-ball-color:#0B0F1F;
-    --timeline-text-color:#A09EDC;
-    --timeline-icon-color:#0B0F1F;
-    --background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='362' height='362' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    --timeline-text-color: #64FFDA;
+    --timeline-icon-color: #0A192F;
+    --background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='362' height='362' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
 }

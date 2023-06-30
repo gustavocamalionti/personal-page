@@ -1,6 +1,51 @@
-.content {
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: var(--gap);
+#welcome, #welcome .container, #welcome .row, #welcome .d-flex  {
+    min-height: calc(100vh - 59px);
 }
 
+#welcome h1 {
+    font-size:1.6rem;
+}
+
+#welcome h2, h3 {
+    font-size:6rem;
+    font-weight: bolder;
+}
+
+#welcome p {
+    width:65%;
+}
+
+#about {
+    min-height: calc(100vh - 59px);
+}
+
+/* #experience {
+    min-height: 100vh;
+} */
+
+#projects {
+    min-height: 100vh;
+}
+
+.content {
+    margin-top:59px !important;
+    margin-bottom:59px !important;
+}
+
+.fa-moon{
+    color:var(--moon-color);
+}
+
+.btnCurriculum{
+    padding: 15px 30px 15px 30px;
+    border-radius:15px;
+    border: 2px solid var(--btn-border-color) !important;
+    background-color: var(--btn-background-color) !important;
+    color: var(--btn-font-color) !important;
+}
+
+.btnCurriculum:hover{
+    border: 2px solid var(--btn-border-hover-color) !important;
+    background-color: var(--btn-background-hover-color) !important;
+    color: var(--btn-font-hover-color) !important;
+}
