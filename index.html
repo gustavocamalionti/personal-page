@@ -27,9 +27,9 @@
                 <div class="container-fluid">
                     <div class="d-flex align-items-center justify-content-center">
                         <a class="navbar-brand" href="#welcome" id="logo-header"><strong>G</strong>
-                            
+
                         </a>
-                       
+
                         <div class="toggle-mode me-3">
                             <div class="toggle-content">
                                 <input type="checkbox" for="switch" id="switch">
@@ -41,16 +41,16 @@
                             </div>
                         </div>
                     </div>
-                   
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                   
+
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
-                           
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#about">Sobre</a>
                             </li>
@@ -70,16 +70,42 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
             </nav>
+        </aside>
+        <aside>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                style="position:fixed; bottom:25px;right:25px;z-index:5">
+                Linha do Tempo
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </aside>
     </header>
 
     <main>
+
         <section id="welcome" class="">
             <div class="container content">
-
                 <div class="d-flex justify-content-center align-items-start flex-column">
                     <h1 class="effect-reveal-to-right fw-bolder">Hi, my name is</h1>
                     <h2 class="effect-reveal-to-left">NOME TESTE</h2>
@@ -99,11 +125,38 @@
 
         <section id="about" class="">
             <div class="container content">
-                <h1>lorem fkdoafkado aaa</h1>
-                <p>Lorem ipsum,
-                    dolor sit amet <a href="">consectetur</a> adipisicing elit. Quam ratione nobis alias harum error,
-                    asperiores
-                    ipsa iusto ullam rem eius hic beatae optio quae totam cupiditate ut sed temporibus esse?</p>
+                <div class="row">
+                    <div
+                        class="col-12 col-lg-8 d-flex justify-content-center align-items-center flex-column order-2 order-lg-1 ">
+                        <h1 class="effect-reveal-to-left">lorem fkdoafkado aaa</h1>
+                        <p class="effect-reveal-to-right">Lorem ipsum,
+                            dolor sit amet <a href="">consectetur</a> adipisicing elit. Quam ratione nobis alias harum
+                            error,
+                            asperiores
+                            ipsa iusto ullam rem eius hic beatae optio quae totam cupiditate ut sed temporibus esse?</p>
+                        <p class="effect-reveal-to-right">Lorem ipsum,
+                            dolor sit amet <a href="">consectetur</a> adipisicing elit. Quam ratione nobis alias harum
+                            error,
+                            asperiores
+                            ipsa iusto ullam rem eius hic beatae optio quae totam cupiditate ut sed temporibus esse?</p>
+                        <p class="effect-reveal-to-right">Lorem ipsum,
+                            dolor sit amet <a href="">consectetur</a> adipisicing elit. Quam ratione nobis alias harum
+                            error,
+                            asperiores
+                            ipsa iusto ullam rem eius hic beatae optio quae totam cupiditate ut sed temporibus esse?</p>
+                        
+
+
+
+                    </div>
+                    <div
+                        class="col-12 col-lg-4 d-flex justify-content-center align-items-center flex-column order-1 order-lg-2 p-5 p-lg-0 effect-reveal-to-left">
+                        <div>
+                            <img src="assets/img/profile-bolder.png" alt="Foto de Perfil" class="img-fluid"
+                                style="border-radius:50%;">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -111,12 +164,12 @@
             <div class="container content">
                 <div class="timeline-container">
 
-                    <div class="timeline-item">
-                        <div class="circle first-circle d-flex justify-content-center align-items-center">
+                    <div class="timeline-item" >
+                        <div class="circle first-circle d-flex justify-content-center align-items-center effect-reveal-opacity">
 
                             <div><i class="timeline-circle-icon fas fa-graduation-cap"></i></div>
                         </div>
-                        <div class="card">
+                        <div class="card effect-reveal-to-left">
                             <div class="card-header">
                                 Featured
                             </div>
@@ -137,10 +190,10 @@
                     </div>
 
                     <div class="timeline-item">
-                        <div class="circle d-flex justify-content-center align-items-center">
+                        <div class="circle d-flex justify-content-center align-items-center effect-reveal-opacity">
                             <div><i class="timeline-circle-icon fas fa-graduation-cap"></i></div>
                         </div>
-                        <div class="card">
+                        <div class="card effect-reveal-to-right">
                             <div class="card-header">
                                 Featured
                             </div>
@@ -153,10 +206,10 @@
                         </div>
                     </div>
                     <div class="timeline-item">
-                        <div class="circle last-circle d-flex justify-content-center align-items-center">
+                        <div class="circle last-circle d-flex justify-content-center align-items-center effect-reveal-opacity">
                             <div><i class="timeline-circle-icon fas fa-university"></i></div>
                         </div>
-                        <div class="card">
+                        <div class="card effect-reveal-to-left">
                             <div class="card-header">
                                 Featured
                             </div>
@@ -173,7 +226,7 @@
         </section>
 
         <section id="projects" class="">
-            <div class="container">
+            <div class="container  content">
                 <h1>lorem fkdoafkado aaa</h1>
                 <p>Lorem ipsum,
                     dolor sit amet <a href="">consectetur</a> adipisicing elit. Quam ratione nobis alias harum error,

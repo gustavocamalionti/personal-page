@@ -15,7 +15,7 @@
     width:65%;
 }
 
-#about {
+#about, #about .container, #about .row {
     min-height: calc(100vh - 59px);
 }
 
