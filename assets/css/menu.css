@@ -1,6 +1,11 @@
 
 #logo-header{
     color:var(--menu-text-color);
+    font-family: 'Russo One', sans-serif;
+    border: 1px solid var(--logo-header-color);
+    box-shadow: 1px 1px 1px 1px rgb(104, 110, 176);
+    width:35px;
+    text-align: center;
 }
 
 .navbar-toggler {

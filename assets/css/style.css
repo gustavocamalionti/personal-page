@@ -4,12 +4,3 @@
     padding: var(--gap);
 }
 
-.card{
-    background-color:var(--card-background-color);
-    color:var(--card-font-color);
-    border-color:var(--card-border-color);
-}
-
-.card h2 {
-    color:var(--secondary-color);
-}

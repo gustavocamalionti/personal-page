@@ -8,7 +8,9 @@
     --blue-light-color:#151B26;
 
     /* DARK-MODE:OFF */
+    --logo-header-color:#0B0F1F;
     --menu-text-color: #0B0F1F;
+
     --text-secondary-color:#fafafa;
     --menu-line-color: #A2A2E2;
     --body-bg: #fafafa;
@@ -25,22 +27,30 @@
     --card-background-color:#fafafa;
     --card-font-color:#0B0F1F;
     --card-border-color:#fafafa;
+
+    --shadow-border:  rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    --header-color: #fafafa;
 }
 
 /* DARK-MODE:ON */
 .dark-mode:root {
+    --logo-header-color: #fafafa;
     --menu-text-color: #fafafa;
     --menu-line-color: #fafafa;
     --body-bg: #0B0F1F;
     --body-color: #6D7181;
     --link-color: #fafafa;
 
+
     --card-background-color:#151B26;
     --card-font-color:#A2A2E2;
-    --card-border-color:#A2A2E2;
+    --card-border-color:#a2a2e23e;
+
+    --shadow-border:  #e0e0e05c 0px 1px 3px, #e0e0e05c 0px 1px 2px;
+    --header-color: #0B0F1F;
 
     --menu-line-color:#A2A2E2;
-    --link-color-hover: #3cc368;
+    --link-color-hover: #A2A2E2;
     --toggle-buttom-color: #fafafa;
     --primary-color:#9D9CE7;
     --toggle-ball-color:#0B0F1F;

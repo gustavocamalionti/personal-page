@@ -7,6 +7,14 @@ nav, li {
     color:var(--primary-color) !important;
 }
 
+header{
+    position:sticky;
+    top:0;
+    box-shadow: var(--shadow-border);
+    background-color:var(--header-color);
+    z-index:999;
+}
+
 body {
     overflow-x:hidden !important;
     font-family: 'Poppins', sans-serif !important;
@@ -15,7 +23,6 @@ body {
     background-image: var(--background-image);
     color: var(--body-color);
     transition: background 0.2s linear;
-    
 }
 
 a {
