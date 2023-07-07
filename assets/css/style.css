@@ -88,6 +88,10 @@
     background-color: var(--menu-experience-active-background-color) !important;
 }
 
+.title-job {
+    color: var(--menu-experience-title-job-color) !important;
+}
+
 @media screen and (max-width: 992px) {
     #welcome h1 {
         font-size: 1rem;
