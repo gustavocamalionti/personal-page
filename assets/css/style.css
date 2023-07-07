@@ -60,6 +60,8 @@
     background-color:var(---list-item-custom-background-color);
     color:var(--list-item-custom-text-color) !important;
     border:0;
+    font-size:1.2rem;
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -74,5 +76,9 @@
 
     #welcome p {
         width: 100%;
+    }
+
+    .list-item-custom{
+        font-size:0.8rem;
     }
 }
