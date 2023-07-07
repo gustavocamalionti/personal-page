@@ -56,6 +56,12 @@
     color: var(--btn-font-hover-color) !important;
 }
 
+.list-item-custom{
+    background-color:var(---list-item-custom-background-color);
+    color:var(--list-item-custom-text-color) !important;
+    border:0;
+}
+
 @media screen and (max-width: 992px) {
     #welcome h1 {
         font-size: 1rem;

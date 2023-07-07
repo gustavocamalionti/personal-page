@@ -35,6 +35,9 @@
     --toggle-buttom-color: #0A192F;
     --toggle-ball-color: #fff;
 
+    --list-item-custom-background-color:#fff;
+    --list-item-custom-text-color:#0A192F;
+
     --timeline-text-color: #0A192F;
     --timeline-icon-color: #64FFDA;
     --background-image: none;
@@ -64,6 +67,9 @@
 
     --toggle-buttom-color: #fafafa;
     --toggle-ball-color: #0A192F;
+
+    --list-item-custom-background-color:#0A192F;
+    --list-item-custom-text-color:#64FFDA;
 
     --body-bg: #0A192F;
     --body-color: #6D7181;
