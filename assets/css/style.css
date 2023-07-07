@@ -19,15 +19,10 @@
     width: 65%;
 }
 
-#about,
-#about .container,
-#about .row {
-    min-height: calc(100vh - 59px);
-}
 
-/* #experience {
+#experience {
     min-height: 100vh;
-} */
+}
 
 #projects {
     min-height: 100vh;
@@ -58,10 +53,39 @@
 
 .list-item-custom{
     background-color:var(---list-item-custom-background-color);
-    color:var(--list-item-custom-text-color) !important;
     border:0;
     font-size:1.2rem;
+    color:var(--blue-light-color) !important;
     
+}
+
+.list-item-custom-icon{
+    background-color:var(---list-item-custom-background-color);
+    color:var(--list-item-custom-text-color) !important;
+}
+
+
+.nav-link-custom{
+    color: var(--menu-experience-text-color) !important;
+    background-color:var(--menu-experience-background-color) !important;
+    border-radius:0;
+    padding-top:18px !important;
+    padding-bottom:18px !important;
+}
+
+
+.nav-link-custom:hover{
+    color: var(--menu-experience-hover-text-color) !important;
+    background-color:var(--menu-experience-hover-background-color) !important;
+    border-radius:0;
+}
+
+
+.nav-pills .nav-link-custom.active, .nav-pills .show > .nav-link-custom {
+    color: var(--menu-experience-active-text-color) !important;
+    border-left:3px solid var(--menu-experience-active-text-color) !important;
+    border-radius:0;
+    background-color: var(--menu-experience-active-background-color) !important;
 }
 
 @media screen and (max-width: 992px) {
@@ -81,4 +105,13 @@
     .list-item-custom{
         font-size:0.8rem;
     }
+
+    .nav-pills .nav-link-custom.active, .nav-pills .show > .nav-link-custom {
+        color: var(--menu-experience-active-text-color) !important;
+        border-bottom:3px solid var(--menu-experience-active-text-color) !important;
+        border-left:0 !important;
+        border-radius:0;
+        background-color: var(--menu-experience-active-background-color) !important;
+    }
+    
 }

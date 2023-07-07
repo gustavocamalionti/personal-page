@@ -13,13 +13,23 @@
     --blue-light-color: #8892B0;
     --white-color: #fafafa;
 
+
+
     --btn-border-color: #64ffda;
     --btn-background-color: #0A192F;
     --btn-font-color: #64ffda;
 
-    -btn-border-hover-color: #64ffdb;
+    --btn-border-hover-color: #64ffdb;
     --btn-background-hover-color: #64ffdbdf;
     --btn-font-hover-color: #0a192f;
+
+    --menu-experience-text-color:;
+    --menu-experience-hover-text-color:;
+    --menu-experience-active-text-color:;
+
+    --menu-experience-background-color:;
+    --menu-experience-active-background-color:;
+    --menu-experience-hover-background-color:;
 
 
     /* DARK-MODE:OFF */
@@ -35,12 +45,21 @@
     --toggle-buttom-color: #0A192F;
     --toggle-ball-color: #fff;
 
-    --list-item-custom-background-color:#fff;
-    --list-item-custom-text-color:#0A192F;
+    --list-item-custom-background-color: #fff;
+    --list-item-custom-text-color: #0A192F;
 
     --timeline-text-color: #0A192F;
     --timeline-icon-color: #64FFDA;
     --background-image: none;
+
+    --menu-experience-text-color:#fff;
+    --menu-experience-hover-text-color:#64FFDA;
+    --menu-experience-active-text-color:#64FFDA;
+
+    --menu-experience-background-color:#0A192F;
+    --menu-experience-hover-background-color:#112240;
+    --menu-experience-active-background-color:#112240;
+
 
     --card-background-color: #fafafa;
     --card-font-color: #0A192F;
@@ -68,8 +87,8 @@
     --toggle-buttom-color: #fafafa;
     --toggle-ball-color: #0A192F;
 
-    --list-item-custom-background-color:#0A192F;
-    --list-item-custom-text-color:#64FFDA;
+    --list-item-custom-background-color: #0A192F;
+    --list-item-custom-text-color: #64FFDA;
 
     --body-bg: #0A192F;
     --body-color: #6D7181;

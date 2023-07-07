@@ -7,7 +7,7 @@ nav, li {
 }
 
 header{
-    position:sticky;
+    position:sticky !important;
     top:0;
     box-shadow: var(--shadow-border);
     background-color:var(--header-color);
