@@ -2,19 +2,19 @@
     opacity:0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 0.8s;
+    transition: all 0.67s;
 }
 
 .effect-reveal-to-left {
     opacity:0;
     filter: blur(5px);
     transform: translateX(100%);
-    transition: all 0.8s;
+    transition: all 0.67s;
 }
 
 .effect-reveal-opacity {
     opacity:0;
-    transition: all 1.2s !important;
+    transition: all 0.85s !important;
 }
 
 .show {
