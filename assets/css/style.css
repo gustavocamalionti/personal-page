@@ -1,21 +1,27 @@
-#welcome, #welcome .container, #welcome .row, #welcome .d-flex  {
-    min-height: calc(100vh - 59px);
+#welcome,
+#welcome .container,
+#welcome .row,
+#welcome .d-flex {
+    min-height: calc(80vh - 59px);
 }
 
 #welcome h1 {
-    font-size:1.6rem;
+    font-size: 1.6rem;
 }
 
-#welcome h2, h3 {
-    font-size:6rem;
+#welcome h2,
+#welcome h3 {
+    font-size: 6rem;
     font-weight: bolder;
 }
 
 #welcome p {
-    width:65%;
+    width: 65%;
 }
 
-#about, #about .container, #about .row {
+#about,
+#about .container,
+#about .row {
     min-height: calc(100vh - 59px);
 }
 
@@ -28,24 +34,39 @@
 }
 
 .content {
-    padding-top:59px !important;
-    padding-bottom:59px !important;
+    padding-top: 59px !important;
+    padding-bottom: 59px !important;
 }
 
-.fa-moon{
-    color:var(--moon-color);
+.fa-moon {
+    color: var(--moon-color);
 }
 
-.btnCurriculum{
+.btnCurriculum {
     padding: 15px 30px 15px 30px;
-    border-radius:15px;
+    border-radius: 15px;
     border: 2px solid var(--btn-border-color) !important;
     background-color: var(--btn-background-color) !important;
     color: var(--btn-font-color) !important;
 }
 
-.btnCurriculum:hover{
+.btnCurriculum:hover {
     border: 2px solid var(--btn-border-hover-color) !important;
     background-color: var(--btn-background-hover-color) !important;
     color: var(--btn-font-hover-color) !important;
+}
+
+@media screen and (max-width: 992px) {
+    #welcome h1 {
+        font-size: 1rem;
+    }
+
+    #welcome h2,
+    #welcome h3 {
+        font-size: 3rem;
+    }
+
+    #welcome p {
+        width: 100%;
+    }
 }

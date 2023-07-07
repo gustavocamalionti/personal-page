@@ -9,9 +9,12 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
-const revealElementsLeft = document.querySelectorAll('.effect-reveal-to-left');
+
 const revealElementsRight = document.querySelectorAll('.effect-reveal-to-right');
+const revealElementsLeft = document.querySelectorAll('.effect-reveal-to-left');
 const revealElementsOpacity = document.querySelectorAll('.effect-reveal-opacity');
-revealElementsLeft.forEach((el) => observer.observe(el));
+
+
 revealElementsRight.forEach((el) => observer.observe(el));
+revealElementsLeft.forEach((el) => observer.observe(el));
 revealElementsOpacity.forEach((el) => observer.observe(el));
