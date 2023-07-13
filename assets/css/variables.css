@@ -94,9 +94,10 @@
     --body-color: #6D7181;
     --link-color: #fafafa;
 
-    --card-background-color: #151B26;
-    --card-font-color: #64FFDA;
+    --card-background-color: #112240;
+    --card-font-color: #CCD6F6;
     --card-border-color: #64FFDA3e;
+    --card-icon-color:#64FFDA;
     --shadow-border: #64FFDA 0px 1px 3px, #e0e0e05c 0px 1px 2px;
     --header-color: #0A192F;
 

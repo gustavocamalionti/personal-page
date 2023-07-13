@@ -92,6 +92,27 @@
     color: var(--menu-experience-title-job-color) !important;
 }
 
+.card{
+    background-color:var(--card-background-color);
+    color:var(--card-font-color);
+    border-color:var(--card-border-color);
+}
+
+.card:hover{
+    background-color:var(--card-background-hover-color);
+}
+
+.card h3 {
+    color:var(--secondary-color);
+    font-weight: 700;
+}
+
+.card-link {
+   color:var(--card-icon-color) !important;
+   margin-bottom:8px;
+}
+
+
 @media screen and (max-width: 992px) {
     #welcome h1 {
         font-size: 1rem;
