@@ -1,11 +1,17 @@
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-        // console.log(entry)
+
+        //Infinite scroll transition effect
+        // if (entry.isIntersecting) {
+        //     entry.target.classList.add('show');
+        // } else {
+        //     entry.target.classList.remove('show');
+        // }
+
+        //Scroll transition effect only the first time when scrolling down the page
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
-        } else {
-            entry.target.classList.remove('show');
-        }
+        } 
     });
 });
 
