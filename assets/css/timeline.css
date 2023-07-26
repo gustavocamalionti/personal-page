@@ -18,6 +18,20 @@
     color:var(--timeline-icon-color);
 }
 
+.modal-title{
+    color:var(--timeline-modal-text-color);
+}
+
+.timeline-item .card-text {
+    font-size:1rem;
+    color:var(--timeline-card-text-color);
+}
+
+.timeline-item .badge {
+    background-color: var(--timeline-badge-background-color);
+    color: var(--timeline-badge-text-color);
+}
+
 @media screen and (max-width: 992px) {
     .timeline-item {
         width: 100%;
